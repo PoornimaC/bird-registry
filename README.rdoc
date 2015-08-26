@@ -1,0 +1,26 @@
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+* Ruby version => 2.2.2
+
+* Rails version => 4.2.1
+
+* install mongo-db (for ubuntu follow http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu)
+
+Things you need to do:
+
+* git clone repo_url
+
+* cd project_name
+
+* bundle install
+
+* rake db:create
+
+* rails server
+
+* http://localhost:3000
+
+
