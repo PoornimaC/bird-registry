@@ -1,5 +1,5 @@
 class BirdsController < ApplicationController
-  before_action :set_bird, only: [:show, :edit, :update, :destroy]
+  before_action :set_bird, only: [:show, :destroy]
 
   # GET /birds
   # GET /birds.json

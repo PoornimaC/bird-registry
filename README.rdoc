@@ -24,3 +24,24 @@ Things you need to do:
 * http://localhost:3000
 
 
+API request:
+
+* List all birds(GET)
+Sample Request
+http://localhost:3000/birds.json
+
+* Add a new bird(POST)
+Sample Request
+ http://localhost:3000/birds.json
+Request Body
+{"bird":{"name":"new aaaa","family":"nbgbfdgdf","continents":"asia,europe","visible": "true"}}
+
+* Get details on a specific bird(GET)
+   http://localhost:3000/birds/{id}.json
+
+* DELETE /birds/{id} - Delete a bird by id
+
+Bird Registry date will be automatically set based on when it is created.
+
+
+
